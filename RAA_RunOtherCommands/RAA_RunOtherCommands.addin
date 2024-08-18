@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>RAA_RunOtherCommands - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_RunOtherCommands\RAA_RunOtherCommands.dll</Assembly>
+    <FullClassName>RAA_RunOtherCommands.Command1</FullClassName>
+    <ClientId>dd126643-1296-4e83-ae56-9032e9bcdfd8</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAA_RunOtherCommands - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_RunOtherCommands\RAA_RunOtherCommands.dll</Assembly>
+    <FullClassName>RAA_RunOtherCommands.Command2</FullClassName>
+    <ClientId>b0381c03-f074-4210-8a68-7938766fca9e</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAA_RunOtherCommands</Name>
+    <Assembly>RAA_RunOtherCommands\RAA_RunOtherCommands.dll</Assembly>
+    <FullClassName>RAA_RunOtherCommands.App</FullClassName>
+    <ClientId>8f0773ee-8008-4cbf-8f80-3e30f5607f2c</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
